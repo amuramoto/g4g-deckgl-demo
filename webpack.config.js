@@ -20,9 +20,10 @@ const CONFIG = {
   mode: 'development',
 
   entry: {
-    app: './app.js'
+    app: './src/app.js'
   },
   devServer: {
+    contentBase: path.join(__dirname, 'src'),
     index: 'index.html'
   },
 
