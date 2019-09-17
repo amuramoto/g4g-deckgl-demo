@@ -33,11 +33,7 @@ const trees = {
 // Init the base map and deck.gl GoogleMapsOverlay, then add the layer
 async function run() {
   const MAP = await loadGoogleMap(YOUR_API_KEY);
-  const layers = [];
-  const overlay = new GoogleMapsOverlay({
-    layers: layers
-  });
-  overlay.setMap(MAP);
+  
 }
 
 run();
