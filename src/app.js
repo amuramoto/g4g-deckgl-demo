@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 import {loadGoogleMap} from './load_map';
-import {GoogleMapsOverlay} from '@deck.gl/google-maps';
-import {ScatterplotLayer} from '@deck.gl/layers';
 
-/* SET YOU API KEY HERE */
+
+/* SET YOUR API KEY HERE */
 const YOUR_API_KEY = '';
 
 /* DATASOURCES */
