@@ -20,6 +20,7 @@ import {ScatterplotLayer} from '@deck.gl/layers';
 /* SET YOU API KEY HERE */
 const YOUR_API_KEY = '';
 
+/* DATASOURCES */
 const base_uri = 'https://data.cityofnewyork.us/resource/5rq2-4hqu.json';
 const trees = {
   all: base_uri + '?$limit=683788',
@@ -30,7 +31,7 @@ const trees = {
   queens: base_uri + '?$limit=250551&&boroname=Queens'
 };
 
-// Init the base map and deck.gl GoogleMapsOverlay, then add the layer
+
 async function run() {
   const MAP = await loadGoogleMap(YOUR_API_KEY);
   
