@@ -32,7 +32,7 @@ const trees = {
 
 
 async function run() {
-  const MAP = await loadGoogleMap(YOUR_API_KEY);
+  const map = await loadGoogleMap(YOUR_API_KEY);
   
 }
 
